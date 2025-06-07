@@ -28,6 +28,8 @@ A web-based application that predicts the likelihood of Diabetes, Heart Disease,
 
 📸 Screenshots:
 ![Screenshot 2025-06-07 160115](https://github.com/user-attachments/assets/1039d9d0-9f94-48f2-a71d-a3564538fffd)
+![Screenshot 2025-06-07 160056](https://github.com/user-attachments/assets/773a08a9-d9c0-425b-b6da-0e7418c7e05b)
+
 
 ---
 
