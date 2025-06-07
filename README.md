@@ -33,11 +33,11 @@ A web-based application that predicts the likelihood of Diabetes, Heart Disease,
 
 ---
 
-🌐 Live App
+🌐 Live App:
 👉 Click here to try the app — https://multiple-disease-prediction-using-machine-learning-7.streamlit.app/
 
 ---
 
-🙋‍♂️ Author
+🙋‍♂️ Author: 
 Made with 💻 by Shivam
 B.Tech CSE @ Bennett University
