@@ -5,14 +5,22 @@ from streamlit_option_menu import option_menu
 #loading the models
 
 
-with open('../Multiple disease prediction/diabetes_model.sav', 'rb') as file:
-    diabetes_model = pickle.load(file)
 
-with open('../Multiple disease prediction/heart.sav', 'rb') as file:
-    heart_disease_model = pickle.load(file)
+diabetes_model = pickle.load(open('diabetes_model.sav', 'rb'))
 
-with open("../Multiple disease prediction/parkinsson_disease_model.sav", "rb") as file:
-    parkinsson_model = pickle.load(file)
+heart_disease_model = pickle.load(open('heart.sav', 'rb'))
+
+parkinsson_model = pickle.load(open('parkinsson_disease_model.sav', 'rb'))
+
+
+# with open('diabetes_model.sav', 'rb') as file:
+#     diabetes_model = pickle.load(file)
+
+# with open('../Multiple disease prediction/heart.sav', 'rb') as file:
+#     heart_disease_model = pickle.load(file)
+
+# with open("../Multiple disease prediction/parkinsson_disease_model.sav", "rb") as file:
+#     parkinsson_model = pickle.load(file)
 
 #sidebar to navigate
 with st.sidebar:
